@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="smss.Views.LoginPage"
+             Shell.NavBarIsVisible="False">
+    <ContentPage.Content>
+        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
+            <Image Source="download.png"  VerticalOptions="Center" />
+            <Label Text="STUDENT MANAGEMENT SYSTEM" VerticalOptions="Center" HorizontalOptions="Center" TextColor="Silver" FontSize="20"/>
+            <Label TextColor="White"  HeightRequest="100" />
+            <Label Text="Username" VerticalOptions="Center" HorizontalOptions="Center" TextColor="Red" FontSize="15"/>
+            <Label TextColor="White"  HeightRequest="1" />
+            <Entry Placeholder="Your Username"  HorizontalOptions="Center" PlaceholderColor="Silver" />
+            <Label TextColor="White"  HeightRequest="10" />
+            <Button Text="Get started" TextColor="White" FontSize="15" Clicked="NavigateButton_OnClicked" BackgroundColor="Red"   WidthRequest="300" HeightRequest="50" HorizontalOptions="Center"/>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
