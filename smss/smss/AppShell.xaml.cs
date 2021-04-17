@@ -13,6 +13,8 @@ namespace smss
             InitializeComponent();
             Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
             Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+            Routing.RegisterRoute(nameof(Student_List), typeof(Student_List));
+            Routing.RegisterRoute(nameof(AboutPage), typeof(AboutPage));
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)

@@ -16,4 +16,8 @@ D:\Yagnik\smss\smss\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Yagnik\smss\smss\obj\Debug\netstandard2.0\smss.dll
 D:\Yagnik\smss\smss\obj\Debug\netstandard2.0\ref\smss.dll
 D:\Yagnik\smss\smss\obj\Debug\netstandard2.0\smss.pdb
+D:\Yagnik\smss\smss\obj\Debug\netstandard2.0\Views\Student_List.xaml.g.cs
+D:\Yagnik\smss\smss\obj\Debug\netstandard2.0\Views\TimeTable.xaml.g.cs
+D:\Yagnik\smss\smss\obj\Debug\netstandard2.0\Views\Grade_Report.xaml.g.cs
 D:\Yagnik\smss\smss\obj\Debug\netstandard2.0\smss.csprojAssemblyReference.cache
+D:\Yagnik\smss\smss\obj\Debug\netstandard2.0\Views\Addstudent.xaml.g.cs

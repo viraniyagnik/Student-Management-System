@@ -63,21 +63,21 @@
         </ResourceDictionary>
     </Shell.Resources>
 
-   
-    <FlyoutItem Title="Home" Icon="home.png">
+
+    <FlyoutItem Title="Login"  Icon="icon_about.png">
+        <ShellContent Route="Login"  ContentTemplate="{DataTemplate local:LoginPage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Home" Icon="home.png" >
         <ShellContent Route="Home" ContentTemplate="{DataTemplate local:AboutPage}" />
     </FlyoutItem>
-    <FlyoutItem Title="Login" Icon="icon_about.png" >
-        <ShellContent Route="Students list" ContentTemplate="{DataTemplate local:LoginPage}" />
-    </FlyoutItem>
     <FlyoutItem Title="Students list" Icon="icon_feed.png" >
-        <ShellContent Route="Students list" ContentTemplate="{DataTemplate local:LoginPage}" />
+        <ShellContent Route="Students list" ContentTemplate="{DataTemplate local:Student_List}" />
     </FlyoutItem>
     <FlyoutItem Title="Timetable" Icon="Timetable.png">
-        <ShellContent Route="Timetable" ContentTemplate="{DataTemplate local:LoginPage}" />
+        <ShellContent Route="Timetable" ContentTemplate="{DataTemplate local:TimeTable}" />
     </FlyoutItem>
     <FlyoutItem Title="grade report" Icon="grade.png">
-        <ShellContent Route="grade report" ContentTemplate="{DataTemplate local:LoginPage}" />
+        <ShellContent Route="grade report" ContentTemplate="{DataTemplate local:Grade_Report}" />
     </FlyoutItem>
 
    

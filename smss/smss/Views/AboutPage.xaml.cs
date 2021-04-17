@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using Xamarin.Forms;
+using smss.ViewModels;
 using Xamarin.Forms.Xaml;
 
 namespace smss.Views
@@ -10,6 +11,7 @@ namespace smss.Views
         public AboutPage()
         {
             InitializeComponent();
+           
         }
         private async void NavigateButton_OnClicked(object sender, EventArgs e)
         {
